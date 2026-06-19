@@ -1,0 +1,6 @@
+{
+  "name": "Solix Pro Portfolio",
+  "description": "Interactive 3D portfolio of Solix Pro - Creative Director, Crowdfunding Specialist, Website Designer, and SEO Growth Expert.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
