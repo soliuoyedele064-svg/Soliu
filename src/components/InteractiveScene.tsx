@@ -98,9 +98,10 @@ export default function InteractiveScene() {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
+          const distSq = dx * dx + dy * dy;
 
-          if (dist < 120) {
+          if (distSq < 14400) { // 120 * 120
+            const dist = Math.sqrt(distSq);
             const alpha = (1 - dist / 120) * 0.12;
             ctx.strokeStyle = `rgba(249, 115, 22, ${alpha})`;
             ctx.beginPath();
