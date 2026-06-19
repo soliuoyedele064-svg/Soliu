@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-const avatarImg = "/src/assets/images/solix_pro_profile_new_1781866097725.jpg";
+const avatarImg = "/src/assets/images/solix_pro_profile_new_1781866097725_1781867880574.jpg";
 import { SOCIAL_LINKS } from "../data";
 import { Star, Linkedin, Instagram, Twitter, Award, CheckCircle2, Bookmark, Target, Sparkles, Send } from "lucide-react";
 
